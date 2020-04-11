@@ -14,10 +14,8 @@ APPLE_TEXT = [
     ' #### '
 ]
 
-DEFAULT_APPLE_COLOR = 'red'
-
 class AltNewApple(object):
-    _color = 'red'  # Default color is red
+    _color = DEFAULT_APPLE_COLOR
 
     def __init__(self, color: str = None):
         self._color: str = color or self._color
